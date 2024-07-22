@@ -1,0 +1,74 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.font_poppins{
+  font-family: "Poppins", sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+.font_abeezee{
+  font-family: "ABeeZee", sans-serif;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Kufam:ital,wght@0,400..900;1,400..900&display=swap');
+
+.font_kufam{
+   font-family: "Kufam", sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+.font_source_sans_3{
+  font-family: "Source Sans 3", sans-serif;
+}
+
+
+.underline-with-space {
+  display: inline-block;
+  position: relative;
+}
+
+.underline-with-space::after {
+  content: '';
+  display: block;
+  width: 100%;
+  border-bottom: 5px solid #73AB3A; /* Adjust the color and thickness as needed */
+  position: absolute;
+  bottom: -3px; /* Adjust the spacing */
+  left: 0;
+}
+
+.swiper-pagination-bullet {
+  background-color: rgb(111, 131, 103) !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: rgb(79, 139, 0) !important;
+}
+
+@media (min-width: 768px) {
+  .swiper-pagination-fraction, .swiper-pagination-custom, .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal {
+    bottom: var(--swiper-pagination-bottom, 140px) !important;
+    top: var(--swiper-pagination-top, auto);
+    left: 0;
+    width: 100%;
+  }
+}
+
+
+.swiper-pagination-bullet {
+  width: var(--swiper-pagination-bullet-width, var(--swiper-pagination-bullet-size, 12px)) !important;
+  height: var(--swiper-pagination-bullet-height, var(--swiper-pagination-bullet-size, 12px)) !important;
+  display: inline-block;
+  border-radius: var(--swiper-pagination-bullet-border-radius, 50%);
+  background: var(--swiper-pagination-bullet-inactive-color, #000);
+  opacity: var(--swiper-pagination-bullet-inactive-opacity, 0.2);
+}

@@ -1,0 +1,31 @@
+/* swiperCustomStyles.css */
+/* Adjusted styles for a specific Swiper component */
+.home-activities-slider .swiper-pagination-bullet {
+    background-color: rgb(169, 177, 169) !important;
+  }
+  
+  .home-activities-slider .swiper-pagination-bullet-active {
+    background-color: rgb(29, 207, 29) !important;
+  }
+  
+  @media (min-width: 300px) {
+    .home-activities-slider .swiper-pagination-fraction,
+    .home-activities-slider .swiper-pagination-custom,
+    .home-activities-slider .swiper-horizontal > .swiper-pagination-bullets,
+    .home-activities-slider .swiper-pagination-bullets.swiper-pagination-horizontal {
+      bottom: var(--swiper-pagination-bottom, -5px) !important;
+      top: var(--swiper-pagination-top, auto);
+      left: 0;
+      width: 100%;
+    }
+  }
+  
+  .home-activities-slider .swiper-pagination-bullet {
+    width: var(--swiper-pagination-bullet-width, var(--swiper-pagination-bullet-size, 6px)) !important;
+    height: var(--swiper-pagination-bullet-height, var(--swiper-pagination-bullet-size, 6px)) !important;
+    display: inline-block;
+    border-radius: var(--swiper-pagination-bullet-border-radius, 50%);
+    background: var(--swiper-pagination-bullet-inactive-color, #000);
+    opacity: var(--swiper-pagination-bullet-inactive-opacity, 0.9);
+  }
+  

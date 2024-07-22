@@ -1,0 +1,32 @@
+/* Adjusted styles for a specific Swiper component */
+.home-testimonials-slider .swiper-pagination-bullet {
+    background-color: rgb(44, 196, 64) !important;
+  }
+  
+  .home-testimonials-slider .swiper-pagination-bullet-active {
+    background-color: rgb(255, 255, 255) !important;
+  }
+  
+  @media (min-width: 768px) {
+    .home-testimonials-slider .swiper-pagination-fraction,
+    .home-testimonials-slider .swiper-pagination-custom,
+    .home-testimonials-slider .swiper-horizontal > .swiper-pagination-bullets,
+    .home-testimonials-slider .swiper-pagination-bullets.swiper-pagination-horizontal {
+      bottom: var(--swiper-pagination-bottom, 10px) !important;
+      top: var(--swiper-pagination-top, auto);
+      left: 0;
+      width: 100%;
+    }
+  }
+  
+  .home-testimonials-slider .swiper-pagination-bullet {
+    width: var(--swiper-pagination-bullet-width, var(--swiper-pagination-bullet-size, 6px)) !important;
+    height: var(--swiper-pagination-bullet-height, var(--swiper-pagination-bullet-size, 6px)) !important;
+    display: inline-block;
+    border-radius: var(--swiper-pagination-bullet-border-radius, 50%);
+    background: var(--swiper-pagination-bullet-inactive-color, #000);
+    opacity: var(--swiper-pagination-bullet-inactive-opacity, 0.9);
+  }
+
+  
+  
